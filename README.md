@@ -19,7 +19,9 @@ PostgreSQL
 
 Run the following commands in your terminal:
 
+mvn clean install
+mvn spring-boot:run
+
 3. API Documentation
    Swagger UI: http://localhost:8080/swagger-ui/index.html
-
-Health Check: http://localhost:8080/actuator/health
+   Health Check: http://localhost:8080/actuator/health
